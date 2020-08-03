@@ -1,4 +1,6 @@
 @import "./variables.scss";
+@import "./library.scss";
+@import "./libraryCourse.scss";
 
 html {
   font-size: 62.5%; // 1rem is 10px
@@ -29,10 +31,6 @@ body {
   display: grid;
   grid-template-columns: [library-s] 1fr 1fr [library-e schedule-s] 1fr [schedule-e];
   grid-template-rows: 1fr;
-}
-
-.library {
-  grid-column: library-s/library-e;
 }
 
 .schedule {
