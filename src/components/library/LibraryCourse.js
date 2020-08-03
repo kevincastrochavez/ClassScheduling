@@ -15,7 +15,7 @@ class LibraryCourse extends Component {
         <Action className="library-course__action" />
         <div className="library-course__description">
           <label>Course Description</label>
-          <p>Content</p>
+          <p>Content about Lorem Ipsum goeas all the way here</p>
         </div>
       </div>
     );
